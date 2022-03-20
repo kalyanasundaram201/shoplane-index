@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shoplane</title>
+  <link rel="stylesheet" href="./shoplane-common-style.css">
+  <link rel="stylesheet" href="./shoplane-common-response.css">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat:wght@100;300;400;405&family=Open+Sans:wght@300;500&display=swap');
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <!--headersection-->
+
+  <div id="header">
+  <div id="hleft">
+    <div id="logodiv" class="hleftnav"><a href="#" id="logo-a"><span id="logospan">SHOP</span><span id="logospan2">LANE</span></a></div>
+    <a href="#clothing-heading" class="hleftnav">Clothing</a>
+    <a href="#Accessories-heading" class="hleftnav">Accessories</a>
+  </div>
+  <div id="hsearch-wrap">
+    <input id="hsearchbar" type="text" name="search" placeholder="Search for Clothing and Accessories">
+  </div>
+  <div id="cartwraper"><div id="cartlist"></div><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" alt="" id="cartimage"></div>
+  <div id="userimg"><img src="https://www.clipartmax.com/png/middle/258-2582267_circled-user-male-skin-type-1-2-icon-male-user-icon.png" alt="useimage" id="userimage"></div>
+</div>
+
+<!--slider section-->
+<div id="slider">  
+  <div class="slides">  
+    <img src="https://i.imgur.com/96OnkX7.png" width="100%" />
+   </div>
+    
+    <div class="slides">  
+    <img src="https://i.imgur.com/KtGxwnN.png" width="100%" />
+  </div>
+    
+    <div class="slides">  
+    <img src="https://i.imgur.com/sfjg9R8.png" width="100%" />
+  </div> 
+    
+     <div class="slides">  
+    <img src="https://i.imgur.com/p0wdadG.png" width="100%" />
+  </div> 
+    
+    <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+   </div>
+
+
+<!--product section-->     
+<h2 id="clothing-heading" style="margin-top: 60px;"> Clothing for men and women </h2>
+    <div id="clothing-section" class="product-grid">
+      <div class="cards"></div>
+    </div>
+    <h2 id = "Accessories-heading" >Accessories for Men and Women</h2>
+    <div id="Accessories-section" class="product-grid">
+    </div>
+    <script src="./shoplane-index.js"></script>
+
+
+    <!--footer section-->
+    <div id="footer">
+      <div>
+        <a href="/" class="footer-link">Men Clothing</a>
+        <p class="footer-heading">Online Store</p>
+        <a href="/" class="footer-link">Women Clothing</a>
+        <a href="/" class="footer-link">Men Accessories</a>
+        <a href="/" class="footer-link">Women Accessories</a>
+      </div>
+      <div>
+        <p class="footer-heading">Helpful Links</p>
+        <a href="/" class="footer-link">Home</a>
+        <a href="/" class="footer-link">About</a>
+        <a href="/" class="footer-link">Contact</a>
+      </div>
+      <div>
+        <p class="footer-heading">Partners<a href="/" class="footer-link">Contact</a></p>
+        <a href="/" class="footer-link">Zara</a>
+        <a href="/" class="footer-link">Pantaloons</a>
+        <a href="/" class="footer-link">Levis</a>
+        <a href="/" class="footer-link">UCB</a>
+        <a href="/" class="footer-link">+ Many More</a>
+      </div>
+      <div>
+        <p class="footer-heading">Address</p>
+        <p href="/" class="footer-link">Building 101</p>
+        <p href="/" class="footer-link">Central Avenue</p>
+        <p href="/" class="footer-link">LA - 902722</p>
+        <p href="/" class="footer-link">United States</p>
+      </div>
+    </div>
+
+  
+</body>
+</html>
